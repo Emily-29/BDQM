@@ -1,0 +1,22 @@
+config:
+  task_name: test
+  accelerator: gpu
+  devices:
+  - 0
+  initialization_seed: 1
+  num_workers: 4
+  drop_rate: 0.5
+  test_batch_size: 1
+  patch_size: 32
+  train_rate: 0.8
+  use_augmentation: false
+  ckpt_path: ./repository/shrq_aerial_srocc=0.9767.ckpt
+  save_path: logs\test\version_0
+  test_only: true
+  test_other_dataset: false
+  test_dataset:
+    image_path: ./data/SHRQ/Aerial/dehaze_img
+    test_data_path: ./data/shrq_aerial_test_data.mat
+    resize_size: null
+    iscrop: false
+    patch_num: 324

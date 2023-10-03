@@ -1,0 +1,5 @@
+image_path: ./data/SHRQ/Aerial/dehaze_img
+test_data_path: ./data/shrq_aerial_test_data.mat
+resize_size: null
+iscrop: False
+patch_num: 324
