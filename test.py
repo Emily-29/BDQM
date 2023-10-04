@@ -94,7 +94,7 @@ class MyModule(LightningModule):
         print(f'\n{time_log}')
 
 
-@hydra.main(config_path="conf", config_name="config.yaml")
+@hydra.main(config_path="conf", config_name="config.yaml", version_base="1.1")
 def main(cfg: DictConfig):
     pl.seed_everything(cfg.initialization_seed)
 
