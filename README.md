@@ -43,5 +43,5 @@ If you find our work useful in your research please consider citing our paper:
   doi={10.1109/TMM.2023.3252267}}
 ```
 
-The BDQM code is licensed under [MIT Lice nse](LICENSE).
+The BDQM code is licensed under [MIT License](LICENSE).
 
