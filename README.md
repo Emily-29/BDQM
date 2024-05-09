@@ -37,9 +37,9 @@ If you find our work useful in your research please consider citing our paper:
   title={Blind Dehazed Image Quality Assessment: A Deep CNN-Based Approach}, 
   journal={IEEE Transactions on Multimedia}, 
   year={2023},
-  volume={},
+  volume={25},
   number={},
-  pages={1-15},
+  pages={9410-9424},
   doi={10.1109/TMM.2023.3252267}}
 ```
 
