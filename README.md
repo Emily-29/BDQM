@@ -38,7 +38,7 @@ If you find our work useful in your research please consider citing our paper:
   journal={IEEE Transactions on Multimedia}, 
   year={2023},
   volume={25},
-  number={ },
+  number={},
   pages={9410-9424},
   doi={10.1109/TMM.2023.3252267}}
 ```
